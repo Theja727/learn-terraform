@@ -1,5 +1,5 @@
 variable "URL" {
-  default = "example.com"
+  default = "var.example.com"
 }
 
 output "URL" {
