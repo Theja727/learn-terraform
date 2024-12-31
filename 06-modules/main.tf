@@ -7,5 +7,3 @@ module "ec2" {
   source = "./ec2"
   instance_name = var.instances[count.index]
 }
-
-variable "instance_name" {}
