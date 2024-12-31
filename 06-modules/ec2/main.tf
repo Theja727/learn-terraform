@@ -7,4 +7,8 @@ resource "aws_instance" "instance" {
   }
 }
 
+output "ip_address" {
+  value = aws_instance.instance.private_ip
+}
+
 variable "instance_name" {}
